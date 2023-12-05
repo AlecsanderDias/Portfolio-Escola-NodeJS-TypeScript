@@ -1,4 +1,4 @@
-export class Pessoa {
+export default class Pessoa {
     id;
     nome;
     cpf;

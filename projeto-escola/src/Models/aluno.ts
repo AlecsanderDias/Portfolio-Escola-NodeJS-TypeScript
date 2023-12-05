@@ -1,7 +1,7 @@
-import { Login } from "./login.js";
-import { Pessoa } from "./pessoa.js";
+import Login from "./login.js";
+import Pessoa from "./pessoa.js";
 
-class Aluno extends Pessoa {
+export default class Aluno extends Pessoa {
     constructor(
         id : number, 
         nome : string, 

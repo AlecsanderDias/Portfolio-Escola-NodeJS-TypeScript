@@ -1,6 +1,6 @@
-import { Login } from "./login.js";
+import Login from "./login.js";
 
-export abstract class Pessoa {
+export default abstract class Pessoa {
     constructor(
         private id : number, 
         private nome : string, 

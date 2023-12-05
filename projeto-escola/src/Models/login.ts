@@ -1,4 +1,4 @@
-export class Login {
+export default class Login {
     private login: string;
     private senha: string;
 
