@@ -1,5 +1,4 @@
-import app from "./src/app.js";
-import client from "./src/Config/databaseConnection.js";
+import app from "./src/Routes/routes.js";
 
 const port = 8000;
 
